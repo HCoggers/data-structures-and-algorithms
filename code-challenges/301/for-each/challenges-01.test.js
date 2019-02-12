@@ -33,11 +33,14 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const addValues = (arr, value) => {
-  // Solution code here...
+  arr.push(value);
 }
 
 const addNumbers = (num, arr, times, callback) => {
-  // Solution code here...
+  for (var i = 0; i < times; i ++) {
+    callback(arr, num);
+  }
+  return arr;
 }
 
 /* ------------------------------------------------------------------------------------------------
@@ -53,11 +56,16 @@ Return the modified array.
 ------------------------------------------------------------------------------------------------ */
 
 const removeOne = (num, arr) => {
-  // Solution code here...
+  if (num%3 === 2) {
+    arr.pop();
+  }
 }
 
 const removeElements = (arr, callback) => {
-  // Solution code here...
+  for (var i = 0; i < arr.length; i++){
+    callback(arr[i], arr);
+  }
+  return arr;
 }
 
 /* ------------------------------------------------------------------------------------------------
