@@ -208,7 +208,14 @@ Similarly, extractVowels('The quick brown fox') returns ['Th qck brwn fx', 'eioo
 ------------------------------------------------------------------------------------------------ */
 
 const extractVowels = (str) => {
-  // Solution code here...
+  let arr = [str.split(''), []];
+  arr[0].forEach( (val, idx) => {
+    if (val.match(/[aeiou]/)) {
+      arr[0].splice(idx, 1, '');
+      arr[1].splice(idx, 0, val);
+    }
+  })
+  return [arr[0].join(''), arr[1].sort().join('')];
 };
 
 /* ------------------------------------------------------------------------------------------------
