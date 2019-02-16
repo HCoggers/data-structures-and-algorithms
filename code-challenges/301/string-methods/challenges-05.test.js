@@ -79,7 +79,6 @@ const listFoods = (recipe) => {
   let result = [];
   recipe.ingredients.forEach((val) =>{
     val = val.slice((val.indexOf(' ', (val.indexOf(' ')) + 1) + 1), val.length);
-    console.log('val', val);
     result.push(val);
   })
   return result;
@@ -114,7 +113,9 @@ Return a new array containing just the verbs. For example, ['Mix until evenly di
 
 const stepActions = (recipe) => {
   let result = [];
-  // Solution code here...
+  recipe.steps.forEach( val => {
+    result.push(val.slice(0, val.indexOf(' ')));
+  })
   return result;
 }
 
@@ -132,7 +133,11 @@ For example:
 ------------------------------------------------------------------------------------------------ */
 
 const removeEvenValues = (arr) => {
-  // Solution code here...
+  arr.slice().reverse().forEach( val => {
+    if (val%2 === 0) {
+      arr.splice(arr.indexOf(val), 1);
+    }
+  })
 };
 
 /* ------------------------------------------------------------------------------------------------
