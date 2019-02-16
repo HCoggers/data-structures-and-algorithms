@@ -188,8 +188,14 @@ For example, removeVowels('gregor') returns 'grgr'.
 ------------------------------------------------------------------------------------------------ */
 
 const removeVowels = (str) => {
-  // Solution code here...
-};
+  const arr = str.split('');
+  arr.forEach( (val, idx) => {
+    if (val.match(/[aeiou]/)) {
+      arr.splice(idx, 1, '');
+    }
+  })
+  return arr.join('');
+}
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 10 - Stretch Goal
