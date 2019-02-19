@@ -120,7 +120,16 @@ The input and output of this function are the same as the input and output from 
 ------------------------------------------------------------------------------------------------ */
 
 const hasChildrenEntries = (arr, character) => {
-  // Solution code here...
+  let parent = false;
+  arr.forEach( val => {
+    if (val.name === character) {
+      let Children = Object.entries(val)[2]
+      parent = (Children[1].length > 0);
+      console.log(parent);
+    }
+  })
+  
+  return parent;
 }
 
 /* ------------------------------------------------------------------------------------------------
