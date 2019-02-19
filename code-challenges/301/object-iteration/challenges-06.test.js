@@ -83,7 +83,7 @@ Write a function named getHouses that returns a new array containing the names o
 
 const getHouses = (arr) => {
   let houses = [];
-  // Solution code here...
+  arr.forEach( val => houses.push(val.house));
   return houses;
 }
 
