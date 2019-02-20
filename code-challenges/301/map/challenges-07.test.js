@@ -11,7 +11,11 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 ------------------------------------------------------------------------------------------------ */
 
 const forLoopTwoToThe = (arr) => {
-  return arr.map( v => Math.pow(2, v));
+  let output = [];
+  for(let v of arr){
+    output.push(Math.pow(2, v));
+  }
+  return output;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -21,7 +25,9 @@ Write a function named forEachTwoToThe that produces the same output as your for
 ------------------------------------------------------------------------------------------------ */
 
 const forEachTwoToThe = (arr) => {
-  // Solution code here...
+  let output = [];
+  arr.forEach( v => output.push(Math.pow(2, v)));
+  return output;
 };
 
 /* ------------------------------------------------------------------------------------------------
