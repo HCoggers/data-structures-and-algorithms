@@ -258,7 +258,14 @@ Write a function named extractChildren that, given the array of characters from 
 ------------------------------------------------------------------------------------------------ */
 
 const extractChildren = (arr) => {
-  // Solution code here...
+  let aPeople = arr.filter(val => val.name.includes('a'));
+  return aPeople.reduce((a, val) => {
+    if(val.children){
+      val.children.forEach(child => a.push(child));
+      return a;
+    }
+    return a;
+  }, []);
 };
 
 /* ------------------------------------------------------------------------------------------------
