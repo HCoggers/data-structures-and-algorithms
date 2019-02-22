@@ -72,7 +72,10 @@ let starWarsData = [{
 }]
 
 const returnNames = (arr) => {
-  // Solution code here...
+  return arr.reduce((a, val) => {
+    a.push(val.name);
+    return a;
+  }, []);
 };
 
 /* ------------------------------------------------------------------------------------------------
