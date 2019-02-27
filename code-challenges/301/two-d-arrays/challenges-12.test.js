@@ -114,7 +114,10 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 ------------------------------------------------------------------------------------------------ */
 
 const calculateProduct = (numbers) => {
-  // Solution code here...
+  return numbers.reduce((acc, val) => {
+    val.forEach(num => acc = acc*num);
+    return acc;
+  }, 1);
 }
 
 /* ------------------------------------------------------------------------------------------------
