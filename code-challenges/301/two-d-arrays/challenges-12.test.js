@@ -92,7 +92,17 @@ The top row of the board is considered row zero and row numbers increase as they
 ------------------------------------------------------------------------------------------------ */
 
 const battleship = (board, row, col) => {
-  //  Solution code here...
+  let output = 'miss';
+  board.forEach((val, idx) => {
+    if(idx === row){
+      val.forEach((cell, idx) => {
+        if(idx === col){
+          cell === '#'? output = 'hit' : output = 'miss';
+        }
+      })
+    }
+  });
+  return output;
 }
 
 /* ------------------------------------------------------------------------------------------------
