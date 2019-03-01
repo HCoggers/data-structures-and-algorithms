@@ -141,7 +141,25 @@ Here is a sample board:
 ------------------------------------------------------------------------------------------------ */
 
 const detectTicTacToeWin = (board) => {
-  // Solution code here...
+  for(let r = 0; r < board.length; r++) {
+    for(let c = 0; c < board[r].length; c++) {
+      if(board[r][c] === 'X' && board[r+1][c] === 'X' && board[r+2][c] === 'X') {
+        return true;
+      } else if(board[r][c] === 'O' && board[r+1][c] === 'O' && board[r+2][c] === 'O') {
+        return true;
+      } else if(board[r][c] === 'X' && board[r][c+1] === 'X' && board[r][c+2] === 'X') {
+        return true;
+      } else if(board[r][c] === 'O' && board[r][c+1] === 'O' && board[r][c+2] === 'O') {
+        return true;
+      } else if(board[r][c] === 'X' && board[r+1][c+1] === 'X' && board[r+2][c+2] === 'X') {
+        return true;
+      } else if(board[r][c] === 'O' && board[r+1][c+1] === 'O' && board[r+2][c+2] === 'O') {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------
