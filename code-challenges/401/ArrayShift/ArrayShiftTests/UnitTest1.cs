@@ -21,11 +21,10 @@ namespace ArrayShiftTests
             Assert.Equal(6, output[2]);
         }
         [Fact]
-        public void CanFindOddCenter()
+        public void OddCenterRoundsUp()
         {
-            int[] input = { 3, 5, 9 };
-            int[] output = Program.InsertShiftArray(input, 7);
-            Assert.Equal(7, output[2]);
+            int[] oddArray = Program.InsertShiftArray(new int[] { 1, 2, 4, 5, 6 }, 3);
+            Assert.False(3 == oddArray[2]);
         }
         [Fact]
         public void CanInsert5()
