@@ -22,7 +22,6 @@ center, or the highest closest index from the original array.
 
 If I understand Big O Notation correctly, this is a pretty efficient approach. With a single for loop, 
 based on the length of the input array, it's an O(N) rank method?
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-![image](https://user-images.githubusercontent.com/31331154/76991277-8a588a00-6906-11ea-8ea1-f32fa330f562.png)
+![image](../../../assets/ArrayShift.png)
