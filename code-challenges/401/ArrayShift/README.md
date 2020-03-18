@@ -23,5 +23,8 @@ center, or the highest closest index from the original array.
 If I understand Big O Notation correctly, this is a pretty efficient approach. With a single for loop, 
 based on the length of the input array, it's an O(N) rank method?
 
+## Code
+[Go See The Code!](./ArrayShift/Program.cs)
+
 ## Solution
 ![image](../../../assets/ArrayShift.png)
