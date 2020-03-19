@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.exe
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.deps.json
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.runtimeconfig.json
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.runtimeconfig.dev.json
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.dll
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\bin\Debug\netcoreapp3.1\BinarySearch.pdb
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\obj\Debug\netcoreapp3.1\BinarySearch.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\obj\Debug\netcoreapp3.1\BinarySearch.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\obj\Debug\netcoreapp3.1\BinarySearch.AssemblyInfo.cs
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\obj\Debug\netcoreapp3.1\BinarySearch.dll
+C:\Users\harry\Desktop\Code401\data-structures-and-algorithms\code-challenges\401\BinarySearch\BinarySearch\obj\Debug\netcoreapp3.1\BinarySearch.pdb
