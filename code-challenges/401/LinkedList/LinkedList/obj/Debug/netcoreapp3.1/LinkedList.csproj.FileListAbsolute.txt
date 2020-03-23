@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.exe
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.deps.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\bin\Debug\netcoreapp3.1\LinkedList.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedList\obj\Debug\netcoreapp3.1\LinkedList.pdb
