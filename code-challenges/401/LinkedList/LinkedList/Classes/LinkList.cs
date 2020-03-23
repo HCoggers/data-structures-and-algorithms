@@ -14,17 +14,30 @@ namespace LinkedList.Classes
             this.Head = newNode;
         }
         
-        public bool Includes(Node search)
+        public bool Includes(int searchValue)
         {
             Node current = this.Head;
             bool includes = false;
             while(current != null)
             {
-                if (current == search)
+                if (current.Value == searchValue)
                     includes = true;
                 current = current.Next;
             }
             return includes;
+        }
+
+        public override string ToString()
+        {
+            string collection = "";
+            Node current = this.Head;
+            while(current != null)
+            {
+                collection += $"{{ {current.Value} }} -> ";
+                current = current.Next;
+            }
+            collection += "NULL";
+            return collection;
         }
     }
 }

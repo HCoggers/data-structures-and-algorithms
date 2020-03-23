@@ -8,9 +8,6 @@ namespace LinkedListTests
     {
         /*
         
-        5. Will return true when finding a value within the linked list that exists
-        6. Will return false when searching for a value in the linked list that does not exist
-        7. Can properly return a collection of all the values that exist in the linked list
         */
         
         // 1. Can successfully instantiate an empty linked list
@@ -73,8 +70,42 @@ namespace LinkedListTests
             list.Insert(secondN);
             list.Insert(thirdN);
 
-            Assert.True(list.Includes(firstN) && list.Includes(secondN) && list.Includes(thirdN));
+            Assert.True(list.Includes(firstN.Value) && list.Includes(secondN.Value) && list.Includes(thirdN.Value));
+        }
 
+        // 5. Will return true when finding a value within the linked list that exists
+        [Fact]
+        public void CanFindExistingValue()
+        {
+            Node snape = new Node { Value = 394 };
+            LinkList list = new LinkList();
+            list.Insert(snape);
+
+            Assert.True(list.Includes(394));
+        }
+        
+        // 6. Will return false when searching for a value in the linked list that does not exist
+        [Fact]
+        public void WontFindNonexistantValue()
+        {
+            LinkList emptyList = new LinkList();
+            Assert.False(emptyList.Includes(7));
+        }
+        
+        // 7. Can properly return a collection of all the values that exist in the linked list
+        [Fact]
+        public void CanCreateStringCollectionOfValues()
+        {
+            LinkList fibo = new LinkList();
+            fibo.Insert(new Node { Value = 1 });
+            fibo.Insert(new Node { Value = 1 });
+            fibo.Insert(new Node { Value = 2 });
+            fibo.Insert(new Node { Value = 3 });
+            fibo.Insert(new Node { Value = 5 });
+            fibo.Insert(new Node { Value = 8 });
+            string expectation = "{ 8 } -> { 5 } -> { 3 } -> { 2 } -> { 1 } -> { 1 } -> NULL";
+
+            Assert.Equal(expectation, fibo.ToString());
         }
     }
 }
