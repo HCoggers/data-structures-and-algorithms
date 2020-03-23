@@ -17,8 +17,8 @@ namespace LinkedList.Classes
         /// <param name="newNode">The node to be inserted</param>
         public void Insert(Node newNode)
         {
-            newNode.Next = this.Head;
-            this.Head = newNode;
+            newNode.Next = Head;
+            Head = newNode;
         }
         
         /// <summary>
@@ -28,7 +28,7 @@ namespace LinkedList.Classes
         /// <returns>True if found. False if not</returns>
         public bool Includes(int searchValue)
         {
-            Node current = this.Head;
+            Node current = Head;
             bool includes = false;
             while(current != null)
             {
@@ -47,7 +47,7 @@ namespace LinkedList.Classes
         public override string ToString()
         {
             string collection = "";
-            Node current = this.Head;
+            Node current = Head;
             while(current != null)
             {
                 collection += $"{{ {current.Value} }} -> ";

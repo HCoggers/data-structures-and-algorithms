@@ -6,10 +6,7 @@ namespace LinkedListTests
 {
     public class UnitTest1
     {
-        /*
-        
-        */
-        
+
         // 1. Can successfully instantiate an empty linked list
         [Fact]
         public void CanCreateEmptyLinkedList()

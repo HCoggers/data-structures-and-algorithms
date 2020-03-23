@@ -1,17 +1,23 @@
 # Singly Linked List
-<!-- Short summary or background information -->
+A Singly Linked List is a list, populated by nodes of data. these nodes can only interact directly with their next node in line,
+this means one must traverse the Linked List in a single direction (i.e. "Singly") from head to toe.
 
 ## Challenge
-<!-- Description of the challenge -->
+1. Create two classes, a linked list class and a node class.
+    - A node class should contain a value property and a next property. In this case, the data type of value should be int, and next should always be another node.
+    - A LinkList class should contain a Head property of type Node.
+2. Build three methods within LinkList that allow you to interact with the list.
+    - Build an Insert method that will take a node as a parameter, and insert it at the head of the linklist, moving all other nodes further down the line, and making sure the previous head is assigned to the new heads "Next" property.
+    - Build an Includes method that takes a value as a parameter and returns a boolean depending on whether that value exists within the Linked List as a node's value.
+    - Build a ToString method that puts together a readable string representation of the Link List, in this format:
+    ` "{ a } -> { b } -> { c } -> NULL" `
+3. Test thoroughly and catch any unhandled exceptions effectively.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+I started immediately with the provided tests, and built classes, properties, and methods as I needed them. I think this made my methods much more efficient. Check out the Insert method, in O(1) time! Two lines, no chance to throw an exception, with heavy test coverage. The other two methods came in O(N) time, which is understandable, because both need to check every node in the list, so they grow evenly with the length of the LinkList.
 
 ## API
-<!-- Description of each method publicly available to your Linked List -->
-
-## Code
-[Go See The Code!](./LinkedList/Program.cs)
-
-## Solution
-![image](../../../assets/LinkedList.jpg)
+`LinkList.Insert()` | Inserts a new node at the beginning of a linked list, assigns it to head, and assigns the previous head to the new node's "next" prop.
+`LinkList.Includes([int])` | Using a While loop, Checks if a given Value is represented anywhere in the linked list's nodes. returns true if it finds a matching value.
+`LinkList.ToString()` | Returns a formatted string of all the values of nodes in your list.  
+    Format: `"{ a } -> { b } -> { c } -> NULL"`
