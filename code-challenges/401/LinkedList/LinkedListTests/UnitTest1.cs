@@ -19,26 +19,20 @@ namespace LinkedListTests
         [Fact]
         public void CanInsertNodeToLinkList()
         {
-            Node node = new Node();
-            node.Value = 5;
             LinkList list = new LinkList();
-            list.Insert(node);
+            list.Insert(5);
 
-            Assert.Equal(list.Head.Value, node.Value);
+            Assert.Equal(5, list.Head.Value);
         }
 
         // 3. The head property will properly point to the first node in the linked list
         [Fact]
         public void LinkListHeadIsFirstNode()
         {
-            Node firstN = new Node { Value = 5 };
-            Node secondN = new Node { Value = 18 };
-            Node thirdN = new Node { Value = 71 };
             LinkList list = new LinkList();
-
-            list.Insert(firstN);
-            list.Insert(secondN);
-            list.Insert(thirdN);
+            list.Insert(5);
+            list.Insert(18);
+            list.Insert(71);
             Node current = list.Head;
             bool headIsFirst = true;
 
@@ -58,25 +52,21 @@ namespace LinkedListTests
         [Fact]
         public void CanInsertMultipleNodes()
         {
-            Node firstN = new Node { Value = 5 };
-            Node secondN = new Node { Value = 18 };
-            Node thirdN = new Node { Value = 71 };
             LinkList list = new LinkList();
 
-            list.Insert(firstN);
-            list.Insert(secondN);
-            list.Insert(thirdN);
+            list.Insert(5);
+            list.Insert(18);
+            list.Insert(71);
 
-            Assert.True(list.Includes(firstN.Value) && list.Includes(secondN.Value) && list.Includes(thirdN.Value));
+            Assert.True(list.Includes(5) && list.Includes(18) && list.Includes(71));
         }
 
         // 5. Will return true when finding a value within the linked list that exists
         [Fact]
         public void CanFindExistingValue()
         {
-            Node snape = new Node { Value = 394 };
             LinkList list = new LinkList();
-            list.Insert(snape);
+            list.Insert(394);
 
             Assert.True(list.Includes(394));
         }
@@ -94,12 +84,12 @@ namespace LinkedListTests
         public void CanCreateStringCollectionOfValues()
         {
             LinkList fibo = new LinkList();
-            fibo.Insert(new Node { Value = 1 });
-            fibo.Insert(new Node { Value = 1 });
-            fibo.Insert(new Node { Value = 2 });
-            fibo.Insert(new Node { Value = 3 });
-            fibo.Insert(new Node { Value = 5 });
-            fibo.Insert(new Node { Value = 8 });
+            fibo.Insert(1);
+            fibo.Insert(1);
+            fibo.Insert(2);
+            fibo.Insert(3);
+            fibo.Insert(5);
+            fibo.Insert(8);
             string expectation = "{ 8 } -> { 5 } -> { 3 } -> { 2 } -> { 1 } -> { 1 } -> NULL";
 
             Assert.Equal(expectation, fibo.ToString());
@@ -112,8 +102,8 @@ namespace LinkedListTests
         public void CanAppendNodeToEndOfList()
         {
             LinkList test = new LinkList();
-            test.Insert(new Node { Value = 1 });
-            test.Insert(new Node { Value = 2 });
+            test.Insert(1);
+            test.Insert(2);
             test.Append(3);
 
             Assert.Equal(3, test.Head.Next.Next.Value);

@@ -14,9 +14,10 @@ namespace LinkedList.Classes
         /// <summary>
         /// Inserts a new node at the beginning of a linked list, assigning it to head, and moving the previous head down to list.
         /// </summary>
-        /// <param name="newNode">The node to be inserted</param>
-        public void Insert(Node newNode)
+        /// <param name="nodeValue">The value of the new node to be inserted</param>
+        public void Insert(int nodeValue)
         {
+            Node newNode = new Node { Value = nodeValue };
             newNode.Next = Head;
             Head = newNode;
         }
