@@ -104,5 +104,24 @@ namespace LinkedListTests
 
             Assert.Equal(expectation, fibo.ToString());
         }
+
+        // ----- CC #2 TESTS -----
+
+        // 1. Can successfully add a node to the end of the linked list
+        [Fact]
+        public void CanAppendNodeToEndOfList()
+        {
+            LinkList test = new LinkList();
+            test.Insert(new Node { Value = 1 });
+            test.Insert(new Node { Value = 2 });
+            test.Append(3);
+
+            Assert.Equal(3, test.Head.Next.Next.Value);
+        }
+        // Can successfully add multiple nodes to the end of a linked list
+        // Can successfully insert a node before a node located in the middle of a linked list
+        // Can successfully insert a node before the first node of a linked list
+        // Can successfully insert after a node in the middle of the linked list
+        // Can successfully insert a node after the last node of the linked list
     }
 }

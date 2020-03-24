@@ -20,6 +20,21 @@ namespace LinkedList.Classes
             newNode.Next = Head;
             Head = newNode;
         }
+
+        public void Append(int nodeValue)
+        {
+            Node current = this.Head;
+            if (current == null)
+                this.Head = new Node { Value = nodeValue };
+            else
+            {
+                while (current.Next != null)
+                {
+                    current = current.Next;
+                }
+                current.Next = new Node { Value = nodeValue };
+            }
+        }
         
         /// <summary>
         /// Checks if a given Value is represented anywhere in the linked list's nodes. returns true if it finds a matching value.
@@ -56,5 +71,7 @@ namespace LinkedList.Classes
             collection += "NULL";
             return collection;
         }
+
+        
     }
 }
