@@ -175,5 +175,51 @@ namespace LinkedListTests
 
             Assert.Equal("{ 4 } -> { 8 } -> { 12 } -> { 16 } -> { 20 } -> NULL", fours.ToString());
         }
+
+        // STRETCH: Can Delete Node with given value from linklist
+        [Fact]
+        public void CanDeleteMiddleNode()
+        {
+            LinkList sevens = new LinkList();
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(17);
+            sevens.Insert(7);
+            sevens.Insert(7);
+
+            sevens.Delete(17);
+            Assert.False(sevens.Includes(17));
+        }
+
+        [Fact]
+        public void CanDeleteFirstNode()
+        {
+            LinkList sevens = new LinkList();
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(92);
+
+            sevens.Delete(92);
+            Assert.False(sevens.Includes(17));
+        }
+
+        [Fact]
+        public void CanDeleteLastNode()
+        {
+            LinkList sevens = new LinkList();
+            sevens.Insert(8);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+            sevens.Insert(7);
+
+            sevens.Delete(8);
+            Assert.False(sevens.Includes(8));
+        }
     }
 }

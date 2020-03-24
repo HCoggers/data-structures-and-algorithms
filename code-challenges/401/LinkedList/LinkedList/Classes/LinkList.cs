@@ -74,6 +74,24 @@ namespace LinkedList.Classes
                 current.Next = new Node { Value = nodeValue };
             }
         }
+
+        /// <summary>
+        /// Deletes the first node whose value matches the first value from the list
+        /// </summary>
+        /// <param name="searchValue">The value of the node to be deleted</param>
+        public void Delete(int searchValue)
+        {
+            Node current = this.Head;
+            if (current.Value == searchValue)
+            {
+                this.Head = current.Next;
+                return;
+            }
+            while (current.Next.Value != searchValue && current.Next != null)
+                current = current.Next;
+            if (current.Next.Value == searchValue)
+                current.Next = current.Next.Next;
+        }
         
         /// <summary>
         /// Checks if a given Value is represented anywhere in the linked list's nodes. returns true if it finds a matching value.
@@ -110,7 +128,5 @@ namespace LinkedList.Classes
             collection += "NULL";
             return collection;
         }
-
-        
     }
 }
