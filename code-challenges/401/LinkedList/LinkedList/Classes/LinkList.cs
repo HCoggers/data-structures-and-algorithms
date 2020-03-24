@@ -30,11 +30,29 @@ namespace LinkedList.Classes
         public void InsertBefore(int searchValue, int newValue)
         {
             Node current = this.Head;
+            if (current.Value == searchValue)
+            {
+                Insert(newValue);
+                return;
+            }
+                
             while(current.Next.Value != searchValue && current != null)
                 current = current.Next;
-            if (current == null)
-                return;
-            else
+            if (current != null)
+                current.Next = new Node { Value = newValue, Next = current.Next };
+        }
+
+        /// <summary>
+        /// Inserts a new node after the first node whose value matches the search value.
+        /// </summary>
+        /// <param name="searchValue">The Value of the node to search for.</param>
+        /// <param name="newValue">The Value of the new node to be inserted.</param>
+        public void InsertAfter(int searchValue, int newValue)
+        {
+            Node current = this.Head;
+            while (current.Value != searchValue && current.Next != null)
+                current = current.Next;
+            if (current.Value == searchValue)
                 current.Next = new Node { Value = newValue, Next = current.Next };
         }
 

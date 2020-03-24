@@ -14,7 +14,7 @@ namespace LinkedListTests
             LinkList list = new LinkList();
             Assert.Null(list.Head);
         }
-        
+
         // 2. Can properly insert into the linked list
         [Fact]
         public void CanInsertNodeToLinkList()
@@ -36,7 +36,7 @@ namespace LinkedListTests
             Node current = list.Head;
             bool headIsFirst = true;
 
-            while(current != null)
+            while (current != null)
             {
                 // Checking if the head node, the last inserted, comes AFTER any other node in the list
                 if (current.Next == list.Head)
@@ -70,7 +70,7 @@ namespace LinkedListTests
 
             Assert.True(list.Includes(394));
         }
-        
+
         // 6. Will return false when searching for a value in the linked list that does not exist
         [Fact]
         public void WontFindNonexistantValue()
@@ -78,7 +78,7 @@ namespace LinkedListTests
             LinkList emptyList = new LinkList();
             Assert.False(emptyList.Includes(7));
         }
-        
+
         // 7. Can properly return a collection of all the values that exist in the linked list
         [Fact]
         public void CanCreateStringCollectionOfValues()
@@ -136,8 +136,44 @@ namespace LinkedListTests
 
             Assert.Equal("{ 18 } -> { 15 } -> { 12 } -> { 9 } -> { 6 } -> { 3 } -> NULL", threes.ToString());
         }
-        // Can successfully insert a node before the first node of a linked list
-        // Can successfully insert after a node in the middle of the linked list
-        // Can successfully insert a node after the last node of the linked list
+
+        // 4. Can successfully insert a node before the first node of a linked list
+        [Fact]
+        public void CanInsertNodeBeforeHead()
+        {
+            LinkList threes = new LinkList();
+            threes.Insert(3);
+            threes.Insert(6);
+            threes.Insert(9);
+            threes.InsertBefore(9, 12);
+
+            Assert.Equal(12, threes.Head.Value);
+        }
+
+        // 5. Can successfully insert after a node in the middle of the linked list
+        [Fact]
+        public void CanInsertNodeAfterMiddle()
+        {
+            LinkList fours = new LinkList();
+            fours.Append(4);
+            fours.Append(8);
+            fours.Append(16);
+            fours.InsertAfter(8, 12);
+
+            Assert.Equal("{ 4 } -> { 8 } -> { 12 } -> { 16 } -> NULL", fours.ToString());
+        }
+        // 6. Can successfully insert a node after the last node of the linked list
+        [Fact]
+        public void CanInsertNodeAfterEnd()
+        {
+            LinkList fours = new LinkList();
+            fours.Append(4);
+            fours.Append(8);
+            fours.Append(12);
+            fours.Append(16);
+            fours.InsertAfter(16, 20);
+
+            Assert.Equal("{ 4 } -> { 8 } -> { 12 } -> { 16 } -> { 20 } -> NULL", fours.ToString());
+        }
     }
 }
