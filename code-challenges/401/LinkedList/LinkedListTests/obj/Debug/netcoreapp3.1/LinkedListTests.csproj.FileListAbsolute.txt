@@ -95,3 +95,8 @@ C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\L
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\obj\Debug\netcoreapp3.1\LinkedListTests.csproj.CopyComplete
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\obj\Debug\netcoreapp3.1\LinkedListTests.dll
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\obj\Debug\netcoreapp3.1\LinkedListTests.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\bin\Debug\netcoreapp3.1\Microsoft.Data.Tools.Utilities.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\LinkedList\LinkedListTests\bin\Debug\netcoreapp3.1\Microsoft.SqlServer.TransactSql.ScriptDom.dll
