@@ -22,6 +22,26 @@ namespace LinkedList.Classes
             Head = newNode;
         }
 
+        /// <summary>
+        /// Inserts a new node before the first node whose value matches the search value.
+        /// </summary>
+        /// <param name="searchValue">The Value of the node to search for.</param>
+        /// <param name="newValue">The Value of the new node to be inserted.</param>
+        public void InsertBefore(int searchValue, int newValue)
+        {
+            Node current = this.Head;
+            while(current.Next.Value != searchValue && current != null)
+                current = current.Next;
+            if (current == null)
+                return;
+            else
+                current.Next = new Node { Value = newValue, Next = current.Next };
+        }
+
+        /// <summary>
+        /// Appends a new node to the end of a linked list, assigning it to the next value of the previous tail.
+        /// </summary>
+        /// <param name="nodeValue">The value of the new node to be appended</param>
         public void Append(int nodeValue)
         {
             Node current = this.Head;

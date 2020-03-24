@@ -108,8 +108,34 @@ namespace LinkedListTests
 
             Assert.Equal(3, test.Head.Next.Next.Value);
         }
-        // Can successfully add multiple nodes to the end of a linked list
-        // Can successfully insert a node before a node located in the middle of a linked list
+
+        // 2. Can successfully add multiple nodes to the end of a linked list
+        [Fact]
+        public void CanAppendMultipleNodes()
+        {
+            LinkList list = new LinkList();
+            list.Insert(1);
+            list.Append(3);
+            list.Append(5);
+
+            // checks for the second and third values to equal 3 and 5, and checks that the third is the last node
+            Assert.True(list.Head.Next.Value == 3 && list.Head.Next.Next.Value == 5 && list.Head.Next.Next.Next == null);
+        }
+
+        // 3. Can successfully insert a node before a node located in the middle of a linked list
+        [Fact]
+        public void CanInsertNodeBeforeMiddle()
+        {
+            LinkList threes = new LinkList();
+            threes.Insert(3);
+            threes.Insert(6);
+            threes.Insert(9);
+            threes.Insert(15);
+            threes.Insert(18);
+            threes.InsertBefore(9, 12);
+
+            Assert.Equal("{ 18 } -> { 15 } -> { 12 } -> { 9 } -> { 6 } -> { 3 } -> NULL", threes.ToString());
+        }
         // Can successfully insert a node before the first node of a linked list
         // Can successfully insert after a node in the middle of the linked list
         // Can successfully insert a node after the last node of the linked list
