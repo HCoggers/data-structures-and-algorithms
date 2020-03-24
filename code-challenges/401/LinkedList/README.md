@@ -32,4 +32,4 @@ Building off of yesterday's linked list, create three more methods to modify you
 ### Approach & Efficiency
 Because all of these methods, unlike our original insert method, need to search through the linked list to find their match, or in appends case, find the tail of the list, they all made use of a single while loop. In big O time, they would all be a O(N) rank method. However, I think since they use the same variable to traverse one node to the next, space-wise they would be O(1)??
 ### Solution
-![image](../../../assets/LinkedList.JPG)
+![image](../../../assets/LinkedList.jpg)
