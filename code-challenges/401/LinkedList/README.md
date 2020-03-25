@@ -1,7 +1,6 @@
 # Singly Linked List
 A Singly Linked List is a list, populated by nodes of data. these nodes can only interact directly with their next node in line,
-this means one must traverse the Linked List in a single direction (i.e. "Singly") from head to toe.
-[Part 1](## Challenge Day 1)  [Part 2](## Challenge Day 2)  [Part 3](## Challenge Day 3)
+this means one must traverse the Linked List in a single direction (i.e. "Singly") from head to toe.  
 
 --- 
 
@@ -40,10 +39,10 @@ Because all of these methods, unlike our original insert method, need to search 
 ## Challenge Day 3
 Further Extending the LinkList class, create a method called `KthFromEnd()` That recieves an integer *k* as the input and searches your linked list for the corresponding node that is *k* nodes from the end. It should also throw custom exceptions if *k* is out of the range of the linked list, whether it be too high, or less than 0.
 
-## Approach & Efficiency
+### Approach & Efficiency
 The way I built this method, you have to traverse the linklist twice through. Once to find the end, and again to find the searched for node. Since I can only access nodes further down the line, I had to start over __After__ finding the end, so there was no way to do it all in one loop. This left me with a method in 0(N) Time, but that takes twice the time a single loop would
 
-## Solution
+### Solution
 ![image](../../../assets/LinkedList3.jpg)
 
 [Checkout The Code!](https://github.com/HCoggers/data-structures-and-algorithms/blob/master/code-challenges/401/LinkedList/LinkedList/Program.cs) 
