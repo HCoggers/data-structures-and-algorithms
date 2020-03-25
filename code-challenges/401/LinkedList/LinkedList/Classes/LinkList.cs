@@ -81,10 +81,10 @@ namespace LinkedList.Classes
         /// <param name="searchValue">The value of the node to be deleted</param>
         public void Delete(int searchValue)
         {
-            Node current = this.Head;
+            Node current = Head;
             if (current.Value == searchValue)
             {
-                this.Head = current.Next;
+                Head = current.Next;
                 return;
             }
             while (current.Next.Value != searchValue && current.Next != null)
@@ -93,6 +93,25 @@ namespace LinkedList.Classes
                 current.Next = current.Next.Next;
         }
         
+        public int KthFromEnd(int k)
+        {
+            int K = -k;
+            Node current = Head;
+            while(current.Next != null)
+            {
+                current = current.Next;
+                K++;
+            }
+            if (K < 0 || k < 0)
+                throw new IndexOutOfRangeException($"There is no Node {k} nodes from the list end.");
+
+            current = Head;
+            for (int i = 0; i < K; i++)
+                current = current.Next;
+
+            return current.Value;
+        }
+
         /// <summary>
         /// Checks if a given Value is represented anywhere in the linked list's nodes. returns true if it finds a matching value.
         /// </summary>

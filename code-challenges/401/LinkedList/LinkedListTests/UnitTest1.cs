@@ -6,7 +6,8 @@ namespace LinkedListTests
 {
     public class UnitTest1
     {
-
+        // ----- CC #1 Tests -----
+        #region
         // 1. Can successfully instantiate an empty linked list
         [Fact]
         public void CanCreateEmptyLinkedList()
@@ -94,9 +95,10 @@ namespace LinkedListTests
 
             Assert.Equal(expectation, fibo.ToString());
         }
+        #endregion
 
-        // ----- CC #2 TESTS -----
-
+        // ----- CC #2 TESTS ----- 
+        #region 
         // 1. Can successfully add a node to the end of the linked list
         [Fact]
         public void CanAppendNodeToEndOfList()
@@ -221,5 +223,76 @@ namespace LinkedListTests
             sevens.Delete(8);
             Assert.False(sevens.Includes(8));
         }
+
+        #endregion
+
+        // ----- CC #3 Tests -----
+        #region
+        // 1.Where k is greater than the length of the linked list
+        [Fact]
+        public void ThrowExceptionIfKIsMuchToLarge()
+        {
+            LinkList squares = new LinkList();
+            squares.Insert(1);
+            squares.Append(4);
+            squares.Append(9);
+            squares.Append(16);
+            squares.Append(25);
+            squares.Append(36);
+
+            Assert.Throws<IndexOutOfRangeException>(() => squares.KthFromEnd(92));
+        }
+
+        // 2. Where k and the length of the list are the same
+        [Fact]
+        public void ThrowExceptionIfKIsListLength()
+        {
+            LinkList squares = new LinkList();
+            squares.Insert(1);
+            squares.Append(4);
+            squares.Append(9);
+            squares.Append(16);
+
+            Assert.Throws<IndexOutOfRangeException>(() => squares.KthFromEnd(4));
+        }
+
+        // 3. Where k is not a positive integer
+        [Fact]
+        public void ThrowExceptionIfKIsNegative()
+        {
+            LinkList squares = new LinkList();
+            squares.Insert(1);
+            squares.Append(4);
+            squares.Append(9);
+
+            Assert.Throws<IndexOutOfRangeException>(() => squares.KthFromEnd(-2));
+        }
+
+        // 4. Where the linked list is of a size 1
+        [Fact]
+        public void CanFindSingleNode()
+        {
+            LinkList squares = new LinkList();
+            squares.Insert(25);
+
+            Assert.Equal(25, squares.KthFromEnd(0));
+        }
+
+        // 5. “Happy Path” where k is not at the end, but somewhere in the middle of the linked list
+        [Fact]
+        public void CanFindKInMiddleOfList()
+        {
+            LinkList squares = new LinkList();
+            squares.Insert(1);
+            squares.Append(4);
+            squares.Append(9);
+            squares.Append(16);
+            squares.Append(25);
+            squares.Append(36);
+
+            Assert.Equal(9, squares.KthFromEnd(3));
+        }
+        #endregion
+
     }
 }
