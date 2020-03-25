@@ -93,6 +93,11 @@ namespace LinkedList.Classes
                 current.Next = current.Next.Next;
         }
         
+        /// <summary>
+        /// Searches the link list for the node k spaces from the end, and returns its value
+        /// </summary>
+        /// <param name="k">number from the end to search for</param>
+        /// <returns>value of node k spaces from the end of linked list</returns>
         public int KthFromEnd(int k)
         {
             int K = -k;
