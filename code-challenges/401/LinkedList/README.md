@@ -1,8 +1,11 @@
 # Singly Linked List
 A Singly Linked List is a list, populated by nodes of data. these nodes can only interact directly with their next node in line,
 this means one must traverse the Linked List in a single direction (i.e. "Singly") from head to toe.
+[Part 1](## Challenge Day 1)  [Part 2](## Challenge Day 2)  [Part 3](## Challenge Day 3)
 
-## Challenge day 1
+--- 
+
+## Challenge Day 1
 1. Create two classes, a linked list class and a node class.
     - A node class should contain a value property and a next property. In this case, the data type of value should be int, and next should always be another node.
     - A LinkList class should contain a Head property of type Node.
@@ -22,7 +25,7 @@ I started immediately with the provided tests, and built classes, properties, an
 `LinkList.ToString()` | Returns a formatted string of all the values of nodes in your list.  
     Format: `"{ a } -> { b } -> { c } -> NULL"`
 
-## Challenge day 2
+## Challenge Day 2
 Building off of yesterday's linked list, create three more methods to modify your linked lists.
 - Create an Append method, which will add a new node with a given value to the END of the LL.
 - Create an InsertBefore method, which will add a new node with a given value before the first node it finds that matches a separate search value.
@@ -32,4 +35,13 @@ Building off of yesterday's linked list, create three more methods to modify you
 ### Approach & Efficiency
 Because all of these methods, unlike our original insert method, need to search through the linked list to find their match, or in appends case, find the tail of the list, they all made use of a single while loop. In big O time, they would all be a O(N) rank method. However, I think since they use the same variable to traverse one node to the next, space-wise they would be O(1)??
 ### Solution
-![image](../../../assets/LinkedList.jpg)
+![image](../../../assets/LinkedList2.jpg)
+
+## Challenge Day 3
+Further Extending the LinkList class, create a method called `KthFromEnd()` That recieves an integer *k* as the input and searches your linked list for the corresponding node that is *k* nodes from the end. It should also throw custom exceptions if *k* is out of the range of the linked list, whether it be too high, or less than 0.
+
+## Approach & Efficiency
+The way I built this method, you have to traverse the linklist twice through. Once to find the end, and again to find the searched for node. Since I can only access nodes further down the line, I had to start over __After__ finding the end, so there was no way to do it all in one loop. This left me with a method in 0(N) Time, but that takes twice the time a single loop would
+
+## Solution
+![image](../../../assets/LinkedList3.jpg)
