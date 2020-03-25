@@ -47,4 +47,4 @@ The way I built this method, you have to traverse the linklist twice through. On
 ![image](../../../assets/LinkedList3.jpg)
 
 #### CHECKOUT THE CODE
-[CODE LINK]https://github.com/HCoggers/data-structures-and-algorithmscode-challenges/401/LinkedList/LinkedList/Program.cs 
+[CODE LINK]https://github.com/HCoggers/data-structures-and-algorithms/blob/master/code-challenges/401/LinkedList/LinkedList/Program.cs 
