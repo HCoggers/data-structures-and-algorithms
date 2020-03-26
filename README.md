@@ -5,6 +5,7 @@ by Harry Cogswell
 - [ArrayShift](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/ArrayShift/README.md)
 - [BinarySearch](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/BinarySearch/README.md)
 - [LinkedList](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LinkedList/README.md)
+- [LLMerge](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LLMerge/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
