@@ -11,7 +11,7 @@ namespace StacksAndQueues.Classes
         private Node Rear { get; set; }
 
         /// <summary>
-        /// Insert a given value at the rear of the queue
+        /// Insert a given value at the rear of a queue
         /// </summary>
         /// <param name="newValue">The value to be queued up</param>
         public void Enqueue(int newValue)
@@ -27,7 +27,7 @@ namespace StacksAndQueues.Classes
         }
 
         /// <summary>
-        /// Removes the first node and returns its value
+        /// Removes the first node in a queue and returns its value
         /// </summary>
         /// <returns>The value of the dequeued node</returns>
         public int Dequeue()
@@ -49,6 +49,10 @@ namespace StacksAndQueues.Classes
             }
         }
 
+        /// <summary>
+        /// Returns the value of the front node in a queue
+        /// </summary>
+        /// <returns>Front's value</returns>
         public int Peek()
         {
             try

@@ -10,9 +10,9 @@ namespace StacksAndQueues.Classes
         public Node Top { get; set; }
 
         /// <summary>
-        /// Adds a new node with the given value to the top of the stack
+        /// Adds a new node with the given value to the top of a stack
         /// </summary>
-        /// <param name="value">the value to be pushed onto the stack</param>
+        /// <param name="value">The value to be pushed onto the stack</param>
         public void Push(int value)
         {
             Node newTop = new Node { Value = value };
@@ -45,7 +45,7 @@ namespace StacksAndQueues.Classes
         }
 
         /// <summary>
-        /// Returns the value of the top node on the stack
+        /// Returns the value of the top node on a stack
         /// </summary>
         /// <returns>Top's value</returns>
         public int Peek()
