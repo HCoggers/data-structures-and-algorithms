@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.exe
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.deps.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.runtimeconfig.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\bin\Debug\netcoreapp3.1\StacksAndQueues.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.csprojAssemblyReference.cache
