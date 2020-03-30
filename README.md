@@ -6,6 +6,7 @@ by Harry Cogswell
 - [BinarySearch](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/BinarySearch/README.md)
 - [LinkedList](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LinkedList/README.md)
 - [LLMerge](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LLMerge/README.md)
+- [Stack and Queue Implementation](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/StacksAndQueues/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
