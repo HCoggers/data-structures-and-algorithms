@@ -8,3 +8,4 @@ C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\S
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.AssemblyInfo.cs
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.dll
 C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\StacksAndQueues\StacksAndQueues\obj\Debug\netcoreapp3.1\StacksAndQueues.csprojAssemblyReference.cache
