@@ -60,6 +60,14 @@ namespace StacksAndQueues.Classes
             }
         }
 
+        /// <summary>
+        /// Checks if Stack is empty
+        /// </summary>
+        /// <returns>stack is empty, true or false</returns>
+        public bool IsEmpty()
+        {
+            return (Top == null);
+        }
 
         /// <summary>
         /// Constructor sets an initial empty value to the Top property

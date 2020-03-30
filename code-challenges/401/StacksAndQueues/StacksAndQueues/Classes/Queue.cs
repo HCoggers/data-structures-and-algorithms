@@ -66,6 +66,15 @@ namespace StacksAndQueues.Classes
         }
 
         /// <summary>
+        /// checks if a queue is empty
+        /// </summary>
+        /// <returns>queue is empty, true or false</returns>
+        public bool IsEmpty()
+        {
+            return (Front == null);
+        }
+
+        /// <summary>
         /// Queue's contructor creates an empty queue
         /// </summary>
         public Queue()
