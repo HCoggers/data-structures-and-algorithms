@@ -20,4 +20,4 @@ PseudoQueue
 - Enqueue: Adds a new node with the given value to the Rear of the PseudoQueue
 - Dequeue: Removes the Front node of the PseudoQueue
 
-[CHECK OUT THE CODE](QueueWithStacks/QueueWithStacks/Classes/PseudoQueue.cs)
+[CHECK OUT THE CODE](QueueWithStacks/Classes/PseudoQueue.cs)
