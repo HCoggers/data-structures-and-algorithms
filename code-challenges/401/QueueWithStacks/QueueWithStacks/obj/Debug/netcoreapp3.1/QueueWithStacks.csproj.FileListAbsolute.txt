@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\obj\Debug\netcoreapp3.1\QueueWithStacks.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\obj\Debug\netcoreapp3.1\QueueWithStacks.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\obj\Debug\netcoreapp3.1\QueueWithStacks.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.exe
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.deps.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.runtimeconfig.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\bin\Debug\netcoreapp3.1\QueueWithStacks.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\obj\Debug\netcoreapp3.1\QueueWithStacks.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\QueueWithStacks\QueueWithStacks\obj\Debug\netcoreapp3.1\QueueWithStacks.pdb

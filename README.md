@@ -7,6 +7,7 @@ by Harry Cogswell
 - [LinkedList](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LinkedList/README.md)
 - [LLMerge](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LLMerge/README.md)
 - [Stack and Queue Implementation](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/StacksAndQueues/README.md)
+- [Queue With Stacks](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/QueueWithStacks/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 

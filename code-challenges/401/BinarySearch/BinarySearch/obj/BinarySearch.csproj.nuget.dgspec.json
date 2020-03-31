@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\harry\\Desktop\\Code401\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj": {}
+    "C:\\Users\\harry\\Desktop\\code\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj": {}
   },
   "projects": {
-    "C:\\Users\\harry\\Desktop\\Code401\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj": {
+    "C:\\Users\\harry\\Desktop\\code\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\harry\\Desktop\\Code401\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj",
+        "projectUniqueName": "C:\\Users\\harry\\Desktop\\code\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj",
         "projectName": "BinarySearch",
-        "projectPath": "C:\\Users\\harry\\Desktop\\Code401\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj",
+        "projectPath": "C:\\Users\\harry\\Desktop\\code\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\BinarySearch.csproj",
         "packagesPath": "C:\\Users\\harry\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\harry\\Desktop\\Code401\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\obj\\",
+        "outputPath": "C:\\Users\\harry\\Desktop\\code\\data-structures-and-algorithms\\code-challenges\\401\\BinarySearch\\BinarySearch\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\harry\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
