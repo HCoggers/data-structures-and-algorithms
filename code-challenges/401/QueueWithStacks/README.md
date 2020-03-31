@@ -19,3 +19,5 @@ PseudoQueue
 - Two private stack objects. They should start empty when the Pseudoqueue is instantiated.
 - Enqueue: Adds a new node with the given value to the Rear of the PseudoQueue
 - Dequeue: Removes the Front node of the PseudoQueue
+
+[CHECK OUT THE CODE](QueueWithStacks/QueueWithStacks/Classes/PseudoQueue.cs)
