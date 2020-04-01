@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.exe
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.deps.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.runtimeconfig.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\bin\Debug\netcoreapp3.1\FIFOAnimalShelter.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\obj\Debug\netcoreapp3.1\FIFOAnimalShelter.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\obj\Debug\netcoreapp3.1\FIFOAnimalShelter.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\obj\Debug\netcoreapp3.1\FIFOAnimalShelter.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\obj\Debug\netcoreapp3.1\FIFOAnimalShelter.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FIFOAnimalShelter\FIFOAnimalShelter\obj\Debug\netcoreapp3.1\FIFOAnimalShelter.pdb
