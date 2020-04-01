@@ -14,3 +14,5 @@ Because it didn't specify how the inner workings of the animal shelter were mean
 Animal Shelter
 - Enqueue: Adds a new Animal of either Dog or Cat type to the Rear of the Queue
 - Dequeue: Removes the Front Animal of the Queue, unless a preference is set, then it finds the first match to that preference and removes and returns it.
+
+[CHECK OUT THE CODE](FIFOAnimalShelter/Classes/AnimalShelter.cs)
