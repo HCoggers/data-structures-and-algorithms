@@ -10,6 +10,7 @@ by Harry Cogswell
 - [Queue With Stacks](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/QueueWithStacks/README.md)
 - [FIFOAnimalShelter](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FIFOAnimalShelter/README.md)
 - [MultiBracketValidation](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/MultiBracketValidation/README.md)
+- [Tree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/Tree/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
