@@ -1,0 +1,11 @@
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.exe
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.deps.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.runtimeconfig.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.runtimeconfig.dev.json
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\bin\Debug\netcoreapp3.1\FizzBuzzTree.pdb
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\obj\Debug\netcoreapp3.1\FizzBuzzTree.csprojAssemblyReference.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\obj\Debug\netcoreapp3.1\FizzBuzzTree.AssemblyInfoInputs.cache
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\obj\Debug\netcoreapp3.1\FizzBuzzTree.AssemblyInfo.cs
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\obj\Debug\netcoreapp3.1\FizzBuzzTree.dll
+C:\Users\harry\Desktop\code\data-structures-and-algorithms\code-challenges\401\FizzBuzzTree\FizzBuzzTree\obj\Debug\netcoreapp3.1\FizzBuzzTree.pdb

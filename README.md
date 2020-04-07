@@ -11,6 +11,7 @@ by Harry Cogswell
 - [FIFOAnimalShelter](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FIFOAnimalShelter/README.md)
 - [MultiBracketValidation](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/MultiBracketValidation/README.md)
 - [Tree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/Tree/README.md)
+- [FizzBuzzTree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FizzBuzzTree/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
