@@ -2,6 +2,7 @@
 Create A new Node Class, a BinaryTree Class, and a BinarySearchTreeClass
 
 ## Challenge 2
+*Thanks to Andrew Casper for White Boarding Collaboration*
 Create a new BreadthFirst Method:
 This method should take the tree, and return all its values in order of breadth. this means, if you read your tree like a book, row by row, left to right, and top to bottom, you should come away with the correct order for this method.
 
