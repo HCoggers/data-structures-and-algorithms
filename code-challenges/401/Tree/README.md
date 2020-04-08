@@ -26,5 +26,5 @@ I was very confident with my whiteboard for this one, and even thought I had som
 ### Visual
 ![image](../../../assets/Tree.jpg)
 
-[__CHECK OUT THE CODE__](FizzBuzzTree/Program.cs)
+[__CHECK OUT THE CODE__](Tree/Program.cs)
 
