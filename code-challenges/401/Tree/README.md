@@ -24,4 +24,7 @@ Create three new classes:
 I was very confident with my whiteboard for this one, and even thought I had some ways of shaving down my efficiencies, but when I started coding and testing, I realized nothing quite worked as I expected, and I ran out of time trying to figure out the issue.
 
 ### Visual
-![image](../../assets/Tree.jpg)
+![image](../../../assets/Tree.jpg)
+
+[__CHECK OUT THE CODE__](FizzBuzzTree/Program.cs)
+
