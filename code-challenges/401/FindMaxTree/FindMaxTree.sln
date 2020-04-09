@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxTree", "FindMaxTree\FindMaxTree.csproj", "{C0D1B9B1-A73E-460A-9690-CFC7182A593B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxValueTests", "MaxValueTests\MaxValueTests.csproj", "{A354A065-E70E-45CF-A134-8C0FB3CAC9CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D1B9B1-A73E-460A-9690-CFC7182A593B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D1B9B1-A73E-460A-9690-CFC7182A593B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D1B9B1-A73E-460A-9690-CFC7182A593B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D1B9B1-A73E-460A-9690-CFC7182A593B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A354A065-E70E-45CF-A134-8C0FB3CAC9CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A354A065-E70E-45CF-A134-8C0FB3CAC9CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A354A065-E70E-45CF-A134-8C0FB3CAC9CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A354A065-E70E-45CF-A134-8C0FB3CAC9CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D735767-A365-4A5E-AC2D-6A7E81FCDD77}
+	EndGlobalSection
+EndGlobal
