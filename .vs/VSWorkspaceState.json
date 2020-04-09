@@ -3,9 +3,14 @@
     "",
     "\\code-challenges",
     "\\code-challenges\\401",
-    "\\code-challenges\\401\\StacksAndQueues",
-    "\\code-challenges\\401\\StacksAndQueues\\StacksAndQueues"
+    "\\code-challenges\\401\\FindMaxTree",
+    "\\code-challenges\\401\\FindMaxTree\\FindMaxTree",
+    "\\code-challenges\\401\\FindMaxTree\\FindMaxTree\\Classes",
+    "\\code-challenges\\401\\StacksAndQueues\\StacksAndQueues",
+    "\\code-challenges\\401\\Tree",
+    "\\code-challenges\\401\\Tree\\Tree",
+    "\\code-challenges\\401\\Tree\\Tree\\Classes"
   ],
-  "SelectedNode": "\\code-challenges\\401\\StacksAndQueues\\StacksAndQueues\\Classes",
+  "SelectedNode": "\\code-challenges\\401\\FindMaxTree\\FindMaxTree\\Classes\\BinaryTree.cs",
   "PreviewInSolutionExplorer": false
 }

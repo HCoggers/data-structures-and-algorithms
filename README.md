@@ -13,6 +13,7 @@ by Harry Cogswell
 - [Tree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/Tree/README.md)
 - [FizzBuzzTree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FizzBuzzTree/README.md)
 - [BreadthFirst](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/Tree/README.md)
+- [FindMaxTree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FindMaxTree/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
