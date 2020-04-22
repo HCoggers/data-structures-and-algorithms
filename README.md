@@ -15,6 +15,7 @@ by Harry Cogswell
 - [BreadthFirst](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/Tree/README.md)
 - [FindMaxTree](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/FindMaxTree/README.md)
 - [InsertionSort](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/InsertionSort/BLOG.md)
+- [MergeSort](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/MergeSort/BLOG.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
