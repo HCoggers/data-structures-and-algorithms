@@ -18,6 +18,7 @@ by Harry Cogswell
 - [MergeSort](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/MergeSort/BLOG.md)
 - [QuickSort](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/QuickSort/BLOG.md)
 - [Hash Table](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/HashTable/README.md)
+- [Repeated Word](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/RepeatWord/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 

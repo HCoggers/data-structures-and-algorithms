@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatWord", "RepeatWord\RepeatWord.csproj", "{39E49D36-16EB-4D68-B07D-89295F5430E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatWordTests", "RepeatWordTests\RepeatWordTests.csproj", "{1D787AA8-48AE-4D9E-B274-206A6236AE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39E49D36-16EB-4D68-B07D-89295F5430E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39E49D36-16EB-4D68-B07D-89295F5430E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39E49D36-16EB-4D68-B07D-89295F5430E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39E49D36-16EB-4D68-B07D-89295F5430E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D787AA8-48AE-4D9E-B274-206A6236AE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D787AA8-48AE-4D9E-B274-206A6236AE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D787AA8-48AE-4D9E-B274-206A6236AE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D787AA8-48AE-4D9E-B274-206A6236AE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D79AAC6-540D-4709-927D-E79330793AC1}
+	EndGlobalSection
+EndGlobal
