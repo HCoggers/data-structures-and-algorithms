@@ -20,6 +20,7 @@ by Harry Cogswell
 - [Hash Table](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/HashTable/README.md)
 - [Repeated Word](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/RepeatWord/README.md)
 - [Tree Intersection](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/TreeCompare/README.md)
+- [Left Join](https://github.com/HCoggers/data-structures-and-algorithms/tree/master/code-challenges/401/LeftJoin/README.md)
 ### 301/Javascript
 - all-methods 
 - chaining-methods 
