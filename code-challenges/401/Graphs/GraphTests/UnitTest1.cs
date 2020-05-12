@@ -6,11 +6,57 @@ namespace GraphTests
 {
     public class UnitTest1
     {
+        #region BreadthFirstTests
+        [Fact]
+        public void CanReturnCollection()
+        {
+            Graph<string> graph = new Graph<string>();
+            var a = graph.AddNode("Pandora");
+            var b = graph.AddNode("Arendelle");
+            var c = graph.AddNode("Metroville");
+            graph.AddEdge(a, b, 1);
+            graph.AddEdge(b, c, 1);
+            graph.AddEdge(a, b, 1);
 
-        /*  
-            A graph with only one node and edge can be properly returned
-            An empty graph properly returns null 
-            */
+            var result = graph.BreadthFirst(a).ToArray();
+
+            Assert.Equal(new Vertex<string>[] { a, b, c }, result);
+        }
+
+        [Fact]
+        public void OnlyReturnsConnectedNodes()
+        {
+            Graph<string> disconnect = new Graph<string>();
+            var a = disconnect.AddNode("This will show");
+            var b = disconnect.AddNode("This will too");
+            disconnect.AddNode("This won't");
+            disconnect.AddEdge(a, b, 1);
+
+            var result = disconnect.BreadthFirst(a).ToArray();
+
+            Assert.Equal(new Vertex<string>[] { a, b }, result);
+        }
+
+        [Fact]
+        public void DirectionallySensitive()
+        {
+            Graph<string> graph = new Graph<string>();
+            var a = graph.AddNode("Pandora");
+            var b = graph.AddNode("Arendelle");
+            var c = graph.AddNode("Metroville");
+            graph.AddEdge(a, b, 1);
+            graph.AddEdge(a, c, 1);
+            graph.AddEdge(b, c, 1);
+
+            var result = graph.BreadthFirst(c).ToArray();
+
+            Assert.Equal(new Vertex<string>[] { c }, result);
+        }
+
+        #endregion
+
+        #region Graph Tests
+
         [Fact]
         public void CanAddNode()
         {
@@ -88,5 +134,6 @@ namespace GraphTests
 
             Assert.Null(test8.GetAllNodes());
         }
+        #endregion
     }
 }

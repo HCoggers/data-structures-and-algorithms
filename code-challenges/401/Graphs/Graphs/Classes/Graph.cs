@@ -19,6 +19,34 @@ namespace Graphs.Classes
         }
 
         /// <summary>
+        /// Traverses the graph breadth-first, and returns a list of all connected nodes.
+        /// </summary>
+        /// <param name="start">node to start at</param>
+        /// <returns>list of all nodes connected to the starting node</returns>
+        public List<Vertex<T>> BreadthFirst(Vertex<T> start)
+        {
+            List<Vertex<T>> result = new List<Vertex<T>>();
+            Queue<Vertex<T>> q = new Queue<Vertex<T>>();
+
+            q.Enqueue(start);
+
+            while(q.TryPeek(out Vertex<T> current))
+            {
+                result.Add(current);
+                foreach(var edge in GetNeighbors(current))
+                {
+                    if (!q.Contains(edge.Vertex))
+                    {
+                        q.Enqueue(edge.Vertex);
+                    }
+                }
+                q.Dequeue();
+            }
+
+            return result;
+        }
+
+        /// <summary>
         /// Adds a new value to the Graph
         /// </summary>
         /// <param name="value">value to be added</param>
@@ -78,6 +106,10 @@ namespace Graphs.Classes
             return AdjacencyList[node];
         }
 
+        /// <summary>
+        /// Get the number of nodes in a graph
+        /// </summary>
+        /// <returns>The size of the graph</returns>
         public int Size()
         {
             return _size;
